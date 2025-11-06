@@ -58,3 +58,75 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
+# El plano en R3
+
+Un plano en el espacio queda bien determinado si se conoce su punto de paso  $P_0$  y un vector perpendicular al plano $n$ , llamado vector normal al plano.
+
+![image.png](attachment:3c91f3eb-a63f-4abe-9f1d-f566118fb0fc:96ccea98-74cf-418f-b23c-eba21889e908.png)
+
+### a) Ecuación Vectorial del plano
+
+Sea  $\pi$ el plano que pasa  por  $P_0$  , y contiene a los vectores  no paralelos $\vec a$  y **$\vec b$**  , su ecuación es: 
+
+ **Gráficamente :**
+
+![image.png](attachment:86fb5c3d-0cf9-4037-b2b6-85acbd9d416c:image.png)
+
+$$
+\pi : P = \left\{ P_0 + r\vec{a} + s\vec{b} \;\middle|\; r, s \in \mathbb{R} \right\}
+$$
+
+**Sea:** 
+
+$$
+P = (x, y, z) \\
+
+$$
+
+$$
+P_0 = (x_0, y_0, z_0)
+$$
+
+$$
+\vec a = (a_1, a_2, a_3) 
+$$
+
+$$
+\vec b= (b_1, b_2, b_3) 
+
+$$
+
+**Entonces :**
+
+$$
+
+\pi : (x, y, z) = (x_0, y_0, z_0) + r(a_1, a_2, a_3) + s(b_1, b_2, b_3)
+
+$$
+
+$$
+\text{Donde  } r, s \in \mathbb{R}
+$$
+
+### b) Ecuaciones paramétricas del plano
+
+En la ecuación vectorial del plano se tiene que  $\pi : (x, y, z) = (x_0, y_0, z_0) + r(a_1, a_2, a_3) + s(b_1, b_2, b_3)$
+,si despejamos cada variable de la ecuación, se tiene:
+
+ 
+
+$$
+\pi :
+\begin{cases}
+x = x_0 + r a_1 + s b_1 \\
+y = y_0 + r a_2 + s b_2 \\
+z = z_0 + r a_3 + s b_3
+\end{cases}
+\quad 
+
+$$
+
+$$
+\text{Donde } r, s \in \mathbb{R}
+
+$$
